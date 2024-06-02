@@ -24,3 +24,11 @@ var swiper = new Swiper(".mySwiper", {
     $(this).addClass('on')
   })
 
+  $('.mobile a').click(function(){
+    $('.nav-wrap ul li').css({"margin-left": "100px"});
+  });
+
+
+  $('.banner').click(function(){
+    $('.nav-wrap ul li').css({"margin-left": "0px"});
+  });
