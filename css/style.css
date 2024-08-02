@@ -404,6 +404,11 @@ footer {
         width: 100%;
     }
 }
+@media screen and (min-width:1016px){
+    .search-form {
+        display: block;
+    }
+}
 
 @media screen and (min-width:998px) {
 
@@ -422,6 +427,7 @@ footer {
         margin-top: 0;
     }
 
+  
 
 
     .brand li.main-menu.on:hover::after {
